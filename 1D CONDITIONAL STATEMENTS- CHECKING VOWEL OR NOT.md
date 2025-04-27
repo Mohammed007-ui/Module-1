@@ -2,6 +2,7 @@
 
 ## AIM  
 To Write a Python program to check whether the given character is a vowel or not using if..else statement
+
 ## ALGORITHM  
 1. Begin the program.  
 2. Take a character input from the user
@@ -27,5 +28,9 @@ else:
 ```
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/a22a2614-79ba-43ad-bdc8-6611b4823bfa)
+
 
 ## RESULT
+Thus, the Python program to check whether the given character is a vowel or not was successfully created and executed.
+

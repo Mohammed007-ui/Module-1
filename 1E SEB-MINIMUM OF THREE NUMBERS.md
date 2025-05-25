@@ -16,19 +16,27 @@ To write a Python program to find the minimum between three integer numbers usin
 
 ## PROGRAM
 ```python
-# Reg.No-
-# Name-
-# Write your code here
+# Reg.No: 212223060161
+# Name: Mohammed Ali.S
 
-num1 = int(input())
-num2 = int(input())
-num3 = int(input())
+# Read three numbers from the user
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
 
+# Find minimum using nested ternary operator
 min_num = num1 if (num1 <= num2 and num1 <= num3) else num2 if (num2 <= num1 and num2 <= num3) else num3
 
+# Display the result
 print(f"The minimum of {num1}, {num2}, {num3} is {min_num}")
+
 ```
 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/b0c1d157-da07-430d-97b5-f57ad69c54ef)
+
 ## RESULT
+
+Thus, the Python program to find the minimum of three numbers using a conditional expression was written and executed successfully.
+

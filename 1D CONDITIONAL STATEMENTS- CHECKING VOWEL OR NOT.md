@@ -13,19 +13,28 @@ To Write a Python program to check whether the given character is a vowel or not
 
 ## PROGRAM
 ```python
-# Reg.No-
-# Name-
-# Write your code here
+# Reg.No: 212223060161
+# Name: Mohammed Ali.S
 
-char = input("Enter a character: ")
-char_lower = char.lower()
+# Get a character input from the user
+ch = input("Enter a character: ")
 
-if char_lower in ['a', 'e', 'i', 'o', 'u']:
-    print("The given character is a vowel")
+# Convert to lowercase for uniform comparison
+ch = ch.lower()
+
+# Check if the character is a vowel
+if ch in ['a', 'e', 'i', 'o', 'u']:
+    print(ch, "is a vowel.")
 else:
-    print("The given character is NOT a vowel")
+    print(ch, "is not a vowel.")
+
 ```
 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/d16dba34-c490-4887-9309-f5d992bfc823)
+
 ## RESULT
+
+Thus, the Python program to check whether a given character is a vowel using if..else was written and executed successfully.
+
